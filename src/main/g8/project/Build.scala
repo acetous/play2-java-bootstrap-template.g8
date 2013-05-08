@@ -4,7 +4,7 @@ import play.Project._
 
 object ApplicationBuild extends Build {
 
-  val appName         = "$name$"
+  val appName         = "$name;format="Camel"$"
   val appVersion      = "$version$"
 
   val appDependencies = Seq(
